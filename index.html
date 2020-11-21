@@ -3,28 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lesson 3 new module</title>
     <link:rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div>
-            <img src="img/logo.svg" alt="logo">
+    <div class="wrapper">
+    <header class="header">
+        <div class="header__logo">
+            <img class="header__logo_left-top" src="img/logo.svg" alt="logo">
         </div>
-        <nav>
-            <a href="">start</a>
-            <a href="">services</a>
-            <a href="">about</a>
-            <a href="">blog</a>
-            <a href="">contact us</a>
+        <nav class="nav__item">
+            <a href="" class="nav__item nav__item_active">start</a>
+            <a href="" class="nav__item">services</a>
+            <a href="" class="nav__item">about</a>
+            <a href="" class="nav__item">blog</a>
+            <a href="" class="nav__item">contact us</a>
         </nav>
     </header>
-    <section>
-        <h1>Building an App Without Design Expertise?</h1>
-        <p>I help tech startups design better digital products without hiring a full-time designer</p>
-        <button>Schedule free consultation</button>
-        <img src="img/Frame.svg" alt="Дизайнеры и сайт">
-    </section>
+    <main class="main-content">
+        <section class="main-section">
+            <h1 class="main-content__title">Building an App Without Design Expertise?</h1>
+            <p class="main-content__paragraph">I help tech startups design better digital products without hiring a full-time designer</p>
+            <button class="main-content__button">Schedule free consultation</button>
+        </section>
+        <div class="image-content">
+            <img class="image-content__image_right-center" src="img/Frame.svg" alt="Дизайнеры и сайт.">
+        </div>
+    </main>
+    </div>
 </body>
 </html>

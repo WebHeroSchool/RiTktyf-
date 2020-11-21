@@ -1,3 +1,23 @@
 p{
     font-family: Roboto;
 }
+
+.wrapper {
+    margin: auto;
+    width: 80%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo_left-top {
+    padding: 40px 0;
+}
+.nav__item {
+    display: flex;
+    align-items: center;
+    padding: 0 13px;
+}
+.nav__item:last-child {
+    padding-right: 0;
+}
