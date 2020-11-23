@@ -9,9 +9,32 @@ p{
 .header {
     display: flex;
     justify-content: space-between;
+
 }
-.header__logo_left-top {
-    padding: 40px 0;
+.header__logo {
+    position: relative;
+    padding: 40px 0px;
+    padding-left: 44px;
+    font: bold 24px/31px "pt_serifregular", arial, helvetica, sans-serif
+}
+
+.header__logo_circle {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    opacity: .7;
+}
+.header__logo_circle_color-blue {
+    left: 8px;
+    top: 56%;
+    background: #c8dbfb;
+}
+.header__logo_circle_color-darkblue {
+    background: #0056ec;
 }
 .nav__item {
     display: flex;
