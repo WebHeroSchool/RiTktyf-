@@ -42,7 +42,7 @@ p{
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     color: #000;
     text-decoration: none;
-    transition: opacity .5s;
+    transition: opacity .5s, width .5s;
 }
 .nav__item:hover {
     opacity: .5;
@@ -52,7 +52,7 @@ p{
     display: block;
     content: '';
     left: 0;
-    width: 100%;
+    width: 0%;
     height: 3px;
     background: #0056ec;
     opacity: 0;
@@ -60,6 +60,7 @@ p{
 }
 .nav__item:hover::after,.nav__item_active::after {
     opacity: 1;
+    width: 100%;
 }
 .nav__item:hover::after {
     position: absolute;
