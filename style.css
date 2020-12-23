@@ -129,8 +129,16 @@ body {
 .nav__box {
     display: none;
   }
-  
-  @media screen and (max-width: 1367px) and (min-width: 1025px) {
+
+  @media screen and (max-width: 1919px) and (min-width: 1366px) {
+    .main {
+      padding: 75px 63% 172px 0;
+      background: top right no-repeat url(img/mainimg.svg);
+      background-size: 60%;
+      }
+  }
+
+  @media screen and (max-width: 1367px) and (min-width: 1250px) {
     .header {
       margin-bottom: 84px;
       padding-left: 5px
@@ -188,9 +196,27 @@ body {
       margin-left: 5px;
     }
   }
+
+  @media screen and (max-width: 1249px) and (min-width: 1024px){
+    .wrapper {
+      width: 89%;
+    }
+    .main {
+      padding: 54px 47% 172px 0;
+      background-position-x: right;
+      background-size: 56%;
+   }
+   .main__title {
+    font: 700 50px/60px pt_serif, arial, helvetica, sans-serif;
+  }
+  .main__paragraph {
+    width: 367px;
+    margin-bottom: 42px;
+    font: bold 18px/21px Roboto, arial, helvetica, serif;
+   }
+  }
   
-  
-  @media screen and (max-width: 1024px) and (min-width: 769px) {
+  @media screen and (max-width: 1024px) and (min-width: 1000px) {
     .header {
       margin-bottom: 84px;
       padding: 39px 2px;
@@ -237,6 +263,27 @@ body {
       padding: 14px 25px 13px 16px;
     }
   }
+  @media screen and (max-width: 999px) and (min-width: 768px){
+    .wrapper {
+      width: 89%;
+    }
+    .header {
+      margin-bottom: 120px;
+    }
+    .main {
+      padding: 30px 53% 172px 0;
+      background-size: 57%;
+      background-position-x: right;
+    }
+    .main__title {
+      font: bold 40px/57px pt_serif, arial, helvetica, serif;
+    }
+    .main__paragraph {
+      width: 304px;
+      font: bold 14px/17px Roboto, arial, helvetica, serif;
+    }
+  }
+
   @media (max-width: 768px) {
     .header {
       margin-bottom: 8px;
