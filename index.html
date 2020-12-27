@@ -2,35 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson 3 new module</title>
-    <link:rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>Lesson 9 new module</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <div class="wrapper">
     <header class="header">
         <div class="header__logo">
-            <img class="header__logo_left-top" src="img/logo.svg" alt="logo">
+            <div class="header__logo_circle header__logo_circle_color-darkblue"></div>
+            <div class="header__logo_circle header__logo_circle_color-blue"></div>
+            <span class="logo__title">app.creation</span> 
         </div>
-        <nav class="nav__item">
-            <a href="" class="nav__item nav__item_active">start</a>
-            <a href="" class="nav__item">services</a>
-            <a href="" class="nav__item">about</a>
-            <a href="" class="nav__item">blog</a>
-            <a href="" class="nav__item">contact us</a>
+            <nav class="nav">
+            <a href="#" class="nav__item nav__item_active">start</a>
+            <a href="#" class="nav__item">services</a>
+            <a href="#" class="nav__item">about</a>
+            <a href="#" class="nav__item">blog</a>
+            <a href="#" class="nav__item">contact us</a>
         </nav>
     </header>
-    <main class="main-content">
-        <section class="main-section">
-            <h1 class="main-content__title">Building an App Without Design Expertise?</h1>
-            <p class="main-content__paragraph">I help tech startups design better digital products without hiring a full-time designer</p>
-            <button class="main-content__button">Schedule free consultation</button>
-        </section>
-        <div class="image-content">
-            <img class="image-content__image_right-center" src="img/Frame.svg" alt="Дизайнеры и сайт.">
-        </div>
+    <main class="main">
+            <h1 class="main__title animation__title">Building an App 
+            <span class="main__title-text_highlight">Without Design Expertise?</span>
+            </h1>
+            <p class="main__paragraph animation__text">I help tech startups design better digital products without hiring a&nbsp;full-time designer</p>
+            <a class="main__button" href="#">Schedule free consultation</a>
     </main>
     </div>
+    <div class="hamburger-nav">
+        <input id="nav__toggle" type="checkbox" />
+        <label class="nav__btn" for="nav__toggle">
+          <span></span>
+        </label>
+        <ul class="nav__box">
+        <li><a class="nav__item" href="#">start</a></li>
+        <li><a class="nav__item" href="#">services</a></li>
+        <li><a class="nav__item" href="#">about</a></li>
+        <li><a class="nav__item" href="#">blog</a></li>
+        <li><a class="nav__item" href="#">contact us</a></li>
+        </ul>
+      </div>
 </body>
 </html>
